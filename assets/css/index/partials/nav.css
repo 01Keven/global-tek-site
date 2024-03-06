@@ -6,12 +6,12 @@ nav {
     background-color: #ffffff0f;
     height: 70px;
     padding: 0px 80px;
-    background-color: red;
+    background-color: #1f1f1f;
 }
 
 nav img.logo {
     width: 100%;
-    max-width: 130px;
+    max-width: 120px;
     filter: brightness(1000%);
 }
 
@@ -42,5 +42,28 @@ nav img.logo {
 
 .opcoes a.destaque:hover {
     background-color: var(--cor-branco);
+    
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+    nav {
+        height: 70px;
+        padding: 0px 30px;
+    }
+    
+    nav img.logo {
+        max-width: 100px;
+        
+    }
+    
+    .opcoes a {
+       display: none;
+    }
+    
+    .opcoes a.destaque {
+        display: flex;
+        padding: 10px 22px;
+    }
     
 }
