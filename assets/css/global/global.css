@@ -1,4 +1,4 @@
 @import './fontes.css';
-@import './normalize.css';
+@import './variables.css';
 @import './scrollbar.css';
-@import './variabes.css';
+@import './normalize.css';
